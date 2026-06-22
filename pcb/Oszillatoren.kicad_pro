@@ -332,7 +332,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "${revision}"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -744,7 +744,7 @@
       "model_mode": 0,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "C:\\Users\\Win11 Pro\\OneDrive - HTL-Rankweil\\Desktop\\HTL\\Unterrichtsmaterial\\2_HWE_Übungen\\KiCad\\Vorlagen\\A4-landscape_HTL.kicad_wks",
+    "page_layout_descr_file": "kicad-embed://A4-landscape_HTL.kicad_wks",
     "plot_directory": "7Phasenblinker",
     "reuse_designators": true,
     "space_save_all_events": true,
@@ -761,7 +761,7 @@
       {
         "filename": "Oszillatoren.kicad_sch",
         "name": "Oszillatoren",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
     "used_designators": "",
@@ -770,7 +770,7 @@
   "sheets": [
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
-      "Root"
+      "Oszillatoren"
     ]
   ],
   "text_variables": {
