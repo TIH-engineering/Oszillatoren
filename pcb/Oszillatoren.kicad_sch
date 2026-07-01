@@ -1613,6 +1613,28 @@
 					)
 				)
 			)
+			(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
+				(at 0 -12.7 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
+				(at 0 -15.24 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "quartz ceramic resonator oscillator"
 				(at 0 0 0)
 				(show_name no)
@@ -1697,18 +1719,6 @@
 				)
 				(polyline
 					(pts
-						(xy 0 3.556) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0 -3.81) (xy 0 -3.556)
 					)
 					(stroke
@@ -1764,9 +1774,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 5.08 270)
+					(at 0 -5.08 90)
 					(length 1.27)
-					(name "2"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1802,7 +1812,8 @@
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 1.27)
-					(name "4"
+					(hide yes)
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1876,6 +1887,17 @@
 				)
 			)
 			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2152,8 +2174,12 @@
 		)
 		(symbol "power:+12V"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2267,8 +2293,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+12V"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2403,8 +2428,12 @@
 		)
 		(symbol "power:GND"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2494,8 +2523,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2596,7 +2624,7 @@
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "pwr"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4497,10 +4525,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 59.69 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4573,10 +4602,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 212.09 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4650,10 +4680,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 251.46 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4959,10 +4990,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 63.5 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5145,10 +5177,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 30.48 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5301,10 +5334,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 73.66 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5596,10 +5630,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 218.44 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5696,10 +5731,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 142.24 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5798,10 +5834,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 77.47 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5899,8 +5936,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 29.21 55.88 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5977,8 +6015,20 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 77.47 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+				(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 77.47 163.83 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6156,10 +6206,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 63.5 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6330,10 +6381,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 92.71 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6431,10 +6483,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 262.89 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6630,8 +6683,20 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 63.5 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+				(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 63.5 163.83 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6709,10 +6774,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 219.71 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6785,10 +6851,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 31.75 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6885,10 +6952,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 203.2 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6986,10 +7054,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 81.28 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7063,10 +7132,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 191.77 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7331,10 +7401,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 185.42 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7410,10 +7481,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 53.34 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7489,10 +7561,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 251.46 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7565,10 +7638,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 205.74 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7641,10 +7715,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 81.28 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7721,10 +7796,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 59.69 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7979,10 +8055,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 38.1 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8082,10 +8159,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 120.65 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8164,10 +8242,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 273.05 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8244,10 +8323,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 152.4 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8324,10 +8404,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 196.85 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8423,10 +8504,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 60.96 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8521,10 +8603,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 41.91 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8597,10 +8680,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 31.75 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8697,10 +8781,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 24.13 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8799,10 +8884,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 193.04 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8898,10 +8984,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 31.75 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8998,10 +9085,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 246.38 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9077,10 +9165,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 46.99 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9270,10 +9359,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 273.05 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9346,10 +9436,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 67.31 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9722,10 +9813,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 114.3 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9825,10 +9917,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 30.48 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9905,10 +9998,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 135.89 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10003,10 +10097,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 97.79 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10080,10 +10175,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 227.33 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10178,10 +10274,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 246.38 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10256,10 +10353,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 113.03 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10335,10 +10433,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 129.54 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10489,10 +10588,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 87.63 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10565,10 +10665,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 152.4 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10643,10 +10744,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 46.99 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10720,10 +10822,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 158.75 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10820,10 +10923,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 201.93 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10922,10 +11026,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 193.04 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11019,10 +11124,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 215.9 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11098,10 +11204,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 262.89 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11174,10 +11281,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 63.5 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11252,10 +11360,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 237.49 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11428,10 +11537,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 251.46 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11585,10 +11695,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 167.64 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11663,10 +11774,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 73.66 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11764,10 +11876,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 113.03 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11938,10 +12051,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 160.02 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12013,10 +12127,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 31.75 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12111,10 +12226,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 246.38 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12188,10 +12304,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 212.09 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12266,10 +12383,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 87.63 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12369,10 +12487,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 143.51 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12472,10 +12591,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 167.64 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12553,10 +12673,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 59.69 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12654,10 +12775,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 128.27 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12733,10 +12855,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 177.8 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12809,10 +12932,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 262.89 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12984,10 +13108,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 78.74 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13084,10 +13209,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 246.38 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13163,10 +13289,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 73.66 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13239,10 +13366,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 46.99 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13431,10 +13559,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 177.8 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13507,10 +13636,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 31.75 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13608,10 +13738,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 262.89 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13766,10 +13897,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 160.02 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14002,10 +14134,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 43.18 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14105,10 +14238,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 38.1 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14206,10 +14340,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 31.75 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14305,10 +14440,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 97.79 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
+				(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
