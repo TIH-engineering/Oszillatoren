@@ -4,9 +4,8 @@ env:
   THUMBNAIL_WIDTH: 200
 
 on:
-  push:
-    tags:
-      - 'v*'
+  release:
+    types: [published]
 
 jobs:
   export-kicad:
