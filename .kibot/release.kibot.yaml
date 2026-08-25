@@ -188,16 +188,29 @@ outputs:
     type: blender_export
     dir: './blender'
     options:
-      render_options:
-        transparent_background: true
-        auto_crop: true
-        samples: 20
-      point_of_view:
-        rotate_x: 0
-        rotate_z: 0
-      outputs:
-        - output: 'top.kicad.%x'
-        - type: render
+    pcb3d:
+      download: true
+      show_components: all
+      no_virtual: false
+
+    pcb_import:
+      components: true
+      enhance_materials: true
+      solder_joints: SMART
+
+    render_options:
+      transparent_background: true
+      auto_crop: true
+      samples: 20
+
+    point_of_view:
+      view: top
+      rotate_x: 0
+      rotate_z: 0
+
+    outputs:
+      - type: render
+        output: 'top.kicad.%x'
   
   - name: 3D_bottom
     comment: "3D render from bottom (High Quality)"

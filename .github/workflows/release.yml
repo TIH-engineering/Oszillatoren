@@ -34,6 +34,8 @@ jobs:
         dir: ${{ env.KICAD_OUTPUT_FOLDER }}
         schema: "${{ env.KICAD_BASE_FOLDER }}/${{ env.KICAD_BASE_FILENAME }}.${{ env.KICAD_SCHEMATIC_FILE_EXTENSION }}"
         board: "${{ env.KICAD_BASE_FOLDER }}/${{ env.KICAD_BASE_FILENAME }}.${{ env.KICAD_PCB_FILE_EXTENSION }}"
+    	install3D: YES
+   	cache3D: YES
 
     - name: Archive artifacts
       uses: actions/upload-artifact@v7
