@@ -8748,8 +8748,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "changeable"
+		(property "Value" "10k"
 			(at 21.59 114.3 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8781,9 +8782,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 24.13 119.38 0)
-			(hide yes)
+		(property "Description" "changeable"
+			(at 20.828 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
