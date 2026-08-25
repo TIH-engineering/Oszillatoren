@@ -6123,7 +6123,7 @@
 			(uuid "2e40e883-681e-4d2c-afe9-7f98174f4296")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_EuroQuartz_MQ-4Pin_7.0x5.0mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_WE_12SMX-4Pin_7.0x5.0mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8987,7 +8987,7 @@
 			(uuid "b051ce28-bc41-4fd1-aa92-7ba98f04dc4d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_G8-2Pin_3.2x1.5mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3215-2Pin_3.2x1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
