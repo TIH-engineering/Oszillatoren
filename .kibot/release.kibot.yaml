@@ -57,8 +57,6 @@ outputs:
         - References
         - Value
         - Footprint
-        - field: HTL
-          name: HTL
         - Quantity Per PCB
       normalize_values: true
 
@@ -72,7 +70,7 @@ outputs:
       # bom_view: 'left-right'
       bom_view: 'top-bottom'
       include_tracks: false
-      show_fields: 'Value,Footprint,HTL'
+      show_fields: 'Value,Footprint'
 
   - name: 'print_sch'
     comment: 'Schematic PDF'
