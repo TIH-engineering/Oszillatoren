@@ -177,7 +177,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -189,7 +189,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -243,6 +243,12 @@
 		(path "/fbbbdaba-1a37-4423-b750-0457bfc73c9d")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -384,7 +390,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "43b7e72d-6e44-441f-bdd3-16849a5188a3")
 		)
@@ -429,7 +435,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -441,7 +447,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -469,6 +475,12 @@
 		(path "/5b7bf7d4-06e0-4e9e-a7f8-7cf6344eb0e8")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -583,7 +595,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -595,7 +607,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -637,6 +649,12 @@
 		(path "/138b845f-5b28-4699-960d-1ff64d95b1cb")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -872,7 +890,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -884,7 +902,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -912,6 +930,12 @@
 		(path "/5264125c-9194-4cc8-8d55-0a7a9b17677a")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1026,7 +1050,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1038,7 +1062,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1066,6 +1090,12 @@
 		(path "/8b96f61b-9982-4a8a-9148-2f6ea7545ca5")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1180,7 +1210,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1220,6 +1250,12 @@
 		(path "/1018d520-cc91-4457-a792-bf4ac1645720")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1334,7 +1370,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1346,7 +1382,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1400,6 +1436,12 @@
 		(path "/54c2850d-efbe-41b5-ba12-220e11f28bc0")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1541,7 +1583,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(J4-Pin_1)")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "c28d730a-3a27-4317-b2da-74e3f04f264f")
 		)
@@ -1586,7 +1628,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1598,7 +1640,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1640,6 +1682,12 @@
 		(path "/cdb77004-90a4-48ed-9ab4-108ef8d3c18f")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1875,7 +1923,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1887,7 +1935,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1929,6 +1977,12 @@
 		(path "/f8ccd9c9-b7c3-49b4-8486-773ab3acd65b")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2164,7 +2218,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2176,7 +2230,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2218,6 +2272,12 @@
 		(path "/5b60017f-e868-43f4-a5d1-15e1aefcc152")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2493,6 +2553,20 @@
 		(path "/b4919e3e-84b0-458d-9cd7-621b18f4b11d")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "2" "1")
+			)
+			(unit
+				(name "B")
+				(pins "5" "6" "7")
+			)
+			(unit
+				(name "C")
+				(pins "8" "4")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2652,7 +2726,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(U3A--)")
-			(pinfunction "-")
+			(pinfunction "-_2")
 			(pintype "input")
 			(uuid "3f75edfd-873f-4a40-a485-d1c2bdb7a0da")
 		)
@@ -2663,7 +2737,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "+")
+			(pinfunction "+_3")
 			(pintype "input")
 			(uuid "d9245207-ba0e-42a0-a132-d5f52e90dd31")
 		)
@@ -2674,7 +2748,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-5V")
-			(pinfunction "V-")
+			(pinfunction "V-_4")
 			(pintype "power_in")
 			(uuid "713626df-df67-485f-b2fd-ae79bfc8dc90")
 		)
@@ -2685,7 +2759,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(U3B-+)")
-			(pinfunction "+")
+			(pinfunction "+_5")
 			(pintype "input")
 			(uuid "fb5b8d97-db21-4f14-a454-066a26fe577c")
 		)
@@ -2696,7 +2770,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(U3B--)")
-			(pinfunction "-")
+			(pinfunction "-_6")
 			(pintype "input")
 			(uuid "1b877bd8-e556-4b20-bb31-d6c04195d0a1")
 		)
@@ -2717,7 +2791,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
-			(pinfunction "V+")
+			(pinfunction "V+_8")
 			(pintype "power_in")
 			(uuid "b88618a7-a20d-41cc-b634-48eebb2d3c21")
 		)
@@ -2762,7 +2836,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2774,7 +2848,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2828,6 +2902,12 @@
 		(path "/288ec70d-5371-4e7d-93ca-55eb07f92c4d")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2969,7 +3049,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "e7e0adb2-fba2-4a94-beff-52579cb1711a")
 		)
@@ -3014,7 +3094,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3026,7 +3106,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3054,6 +3134,12 @@
 		(path "/d22e2c0b-9f83-4dd8-890c-ae5ad51124d2")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3168,7 +3254,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3180,7 +3266,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3222,6 +3308,12 @@
 		(path "/29950974-e23d-4853-b4db-5254fa68e3c6")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3457,7 +3549,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3469,7 +3561,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3511,6 +3603,12 @@
 		(path "/f5a25ea2-ebd6-4316-b718-56fd60ad6b87")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3746,7 +3844,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3758,7 +3856,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3812,6 +3910,12 @@
 		(path "/b5861aab-3b4c-47cc-9d66-83ac35f837dc")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3953,7 +4057,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "aa745314-5cfd-40e0-b7ff-15ca3c417d01")
 		)
@@ -3998,7 +4102,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4010,7 +4114,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4064,6 +4168,12 @@
 		(path "/64894110-c237-465d-9de3-bc967f6a5f22")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4205,7 +4315,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(J11-Pin_1)")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "1511a978-68e8-40e8-a95e-79bb7b61f70f")
 		)
@@ -4250,7 +4360,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4262,7 +4372,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4304,6 +4414,12 @@
 		(path "/6460c438-7cc2-4d63-8c38-523f8bf9c680")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4539,7 +4655,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4551,7 +4667,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4579,6 +4695,12 @@
 		(path "/657197ad-99ba-46db-a5e7-eefe70c2f31a")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4693,7 +4815,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4705,7 +4827,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4747,6 +4869,12 @@
 		(path "/bedec253-048f-406e-a4c8-d66691fc2ea6")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4982,7 +5110,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4994,7 +5122,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5022,6 +5150,12 @@
 		(path "/a16d5a8f-fb89-44c4-a08f-4277ff4b530e")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5136,7 +5270,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5148,7 +5282,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5190,6 +5324,12 @@
 		(path "/98f01e61-0ea5-419a-b64c-19993014d62a")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5425,7 +5565,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5437,7 +5577,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5491,6 +5631,12 @@
 		(path "/98d8b20d-34ba-4fc2-b902-cf380b401888")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5632,7 +5778,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(J9-Pin_1)")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "dd66ab00-e3f6-4be4-8f43-b1b08c394e1b")
 		)
@@ -5677,7 +5823,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5689,7 +5835,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5743,6 +5889,12 @@
 		(path "/12878b3f-8c96-4b21-b1e5-20448472d758")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5884,7 +6036,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(J10-Pin_1)")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "547f8d26-7ee3-4f48-8d5e-017e0a8a177d")
 		)
@@ -5928,7 +6080,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5968,6 +6120,12 @@
 		(path "/0f3389b1-25b5-4ea1-990f-00309e543b59")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "4" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6110,7 +6268,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.162338)
 			(net "Net-(C17-Pad1)")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "385aa9ac-f8ef-4ab0-884d-27de5c147d66")
 		)
@@ -6120,7 +6278,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.162338)
 			(net "GND")
-			(pinfunction "2")
+			(pinfunction "G_2")
 			(pintype "passive")
 			(uuid "5e7ecdb0-43cd-4cce-8acc-ba872e8f1e3f")
 		)
@@ -6130,7 +6288,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.162338)
 			(net "Net-(C18-Pad1)")
-			(pinfunction "3")
+			(pinfunction "3_3")
 			(pintype "passive")
 			(uuid "49f50e75-d14d-4d83-a88f-698d790bc953")
 		)
@@ -6140,7 +6298,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.162338)
 			(net "GND")
-			(pinfunction "4")
+			(pinfunction "G_4")
 			(pintype "passive")
 			(uuid "2e40e883-681e-4d2c-afe9-7f98174f4296")
 		)
@@ -6185,7 +6343,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6197,7 +6355,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6221,10 +6379,29 @@
 				)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "862b6d25-8dc2-4c74-842a-163995357bea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/1757e72e-26a4-4745-8b85-fafa7c9d564b")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6335,7 +6512,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
 			(net "-5V")
-			(pinfunction "K")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "097fc43d-5277-4886-9ae6-b46f62c66eb1")
 		)
@@ -6345,7 +6522,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
 			(net "Net-(D1-A)")
-			(pinfunction "A")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "e53ddf78-69fb-4f49-b5a7-00301e27c402")
 		)
@@ -6390,7 +6567,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6402,7 +6579,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6456,6 +6633,12 @@
 		(path "/80175360-96b4-47d6-9b65-b0d2bab0272c")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6597,7 +6780,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(J18-Pin_1)")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "7013e73c-cb9a-4cdd-9ac2-c42c280a7ed2")
 		)
@@ -6642,7 +6825,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6654,7 +6837,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6682,6 +6865,12 @@
 		(path "/49e87452-7d3f-4816-9944-ede79dd3b2d9")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6796,7 +6985,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6808,7 +6997,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6862,6 +7051,12 @@
 		(path "/1ac4346a-e109-44c4-8133-32ed1e2951b4")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7003,7 +7198,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(J6-Pin_1)")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "07d50fd2-79b5-4fa2-bf81-7d46ece9c4c6")
 		)
@@ -7048,7 +7243,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7060,7 +7255,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7102,6 +7297,12 @@
 		(path "/7885ba1d-1912-4075-9242-daca78dbf91e")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7337,7 +7538,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7349,7 +7550,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7403,6 +7604,12 @@
 		(path "/604c1973-8e80-4a43-8829-933ca9f68fff")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7544,7 +7751,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(J17-Pin_1)")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "66fddfcd-d7fc-4fc2-8a64-7abeb0261fd3")
 		)
@@ -7589,7 +7796,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7601,7 +7808,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7629,6 +7836,12 @@
 		(path "/fe7b7053-fafd-41aa-80cf-6b3ca5883efb")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7743,7 +7956,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7755,7 +7968,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7793,10 +8006,29 @@
 				)
 			)
 		)
+		(property "VendorId" "102812"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0061b0a5-ae9d-4359-89af-73077b103f71")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0da77883-322c-4804-83d5-6653c702b3ca")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7911,7 +8143,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7923,7 +8155,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7977,6 +8209,12 @@
 		(path "/10553945-ddb7-49be-acb8-3d586ceeb39f")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8118,7 +8356,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(J5-Pin_1)")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "a3309c8e-34f5-49fc-972f-26a4a6b50e3b")
 		)
@@ -8163,7 +8401,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8175,7 +8413,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8203,6 +8441,12 @@
 		(path "/c790505d-d0cb-46ca-ad39-0ea5c56e63ba")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8317,7 +8561,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8357,6 +8601,12 @@
 		(path "/f14d948b-d247-4f7e-b25e-635b726f88dc")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8511,6 +8761,20 @@
 		(path "/d4ffdbfa-8093-46fd-9f57-b63c45916cd4")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "2" "1")
+			)
+			(unit
+				(name "B")
+				(pins "5" "6" "7")
+			)
+			(unit
+				(name "C")
+				(pins "8" "4")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8670,7 +8934,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(U4A--)")
-			(pinfunction "-")
+			(pinfunction "-_2")
 			(pintype "input")
 			(uuid "f261756f-33b7-4929-8a10-04cf002e5f83")
 		)
@@ -8681,7 +8945,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "+")
+			(pinfunction "+_3")
 			(pintype "input")
 			(uuid "da367c83-2835-49da-9044-673537b466b0")
 		)
@@ -8692,7 +8956,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-5V")
-			(pinfunction "V-")
+			(pinfunction "V-_4")
 			(pintype "power_in")
 			(uuid "117cbc82-4687-40a1-9e6c-4c7d861bc679")
 		)
@@ -8703,7 +8967,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(J12-Pin_1)")
-			(pinfunction "+")
+			(pinfunction "+_5")
 			(pintype "input")
 			(uuid "37c56e61-352e-4034-a395-bd1b6e1ea640")
 		)
@@ -8714,7 +8978,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(J11-Pin_1)")
-			(pinfunction "-")
+			(pinfunction "-_6")
 			(pintype "input")
 			(uuid "393dfdde-f476-4f4f-8e7c-f01336dd53c3")
 		)
@@ -8735,7 +8999,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
-			(pinfunction "V+")
+			(pinfunction "V+_8")
 			(pintype "power_in")
 			(uuid "bfe6d7d2-5f83-4cf6-94a2-1991d8d7af9c")
 		)
@@ -8779,7 +9043,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8819,6 +9083,12 @@
 		(path "/106f7cb0-5850-4f59-bfac-3e6b1411015d")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8902,7 +9172,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.142857)
 			(net "Net-(C16-Pad1)")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "ede21b02-abfc-4bfb-b609-48c91b5352be")
 		)
@@ -8912,7 +9182,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.142857)
 			(net "Net-(C15-Pad1)")
-			(pinfunction "2")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "b051ce28-bc41-4fd1-aa92-7ba98f04dc4d")
 		)
@@ -8957,7 +9227,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8969,7 +9239,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9007,10 +9277,29 @@
 				)
 			)
 		)
+		(property "VendorId" "102812"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7c183d4-b15b-4a4e-971f-584b1ce6ba01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/15276a0e-a820-40f6-af57-d857f3a724b8")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9125,7 +9414,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9137,7 +9426,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9165,6 +9454,12 @@
 		(path "/4031ee40-025f-45ce-ab79-e4b847eb75a5")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9279,7 +9574,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9291,7 +9586,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9345,6 +9640,12 @@
 		(path "/7d3bf285-fc6a-4026-a02a-79e967db4681")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9486,7 +9787,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(J15-Pin_1)")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "e1cfc7cd-0050-41f4-b91a-10152fe40f4b")
 		)
@@ -9531,7 +9832,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9543,7 +9844,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9597,6 +9898,12 @@
 		(path "/63b1cb0f-c27c-48f3-a46a-bb87354d1ee7")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9738,7 +10045,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "3bc52bdd-9995-4eea-92b8-923a2a071a38")
 		)
@@ -9783,7 +10090,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9795,7 +10102,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9849,6 +10156,12 @@
 		(path "/3355069f-81c4-4bf4-b226-1863d77fcd7f")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9990,7 +10303,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(J16-Pin_1)")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "056dea8e-73de-4dec-bbe3-0422a006a775")
 		)
@@ -10035,7 +10348,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10047,7 +10360,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10075,6 +10388,12 @@
 		(path "/5ced93bf-90b5-449e-a893-3c162448b975")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10189,7 +10508,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10201,7 +10520,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10229,6 +10548,12 @@
 		(path "/7ce627eb-b7b6-4be6-9bfe-aa2cccbabaec")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10343,7 +10668,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10355,7 +10680,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10383,6 +10708,12 @@
 		(path "/ec5248b8-e677-476d-8940-20d204701c86")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10497,7 +10828,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10509,7 +10840,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10563,6 +10894,12 @@
 		(path "/d7fe1219-7b99-4e21-937f-1694da645e90")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10704,7 +11041,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(J14-Pin_1)")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "a38fcbb9-ecdf-4b14-bc76-baf60568beba")
 		)
@@ -10791,6 +11128,12 @@
 		(path "/3a686300-da35-41d8-b22c-94b71ab02324")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "5" "3" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11064,7 +11407,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(U1-X1)")
-			(pinfunction "X1")
+			(pinfunction "X1_1")
 			(pintype "input")
 			(uuid "d0866a34-b4aa-4f62-9724-6e92fd559e20")
 		)
@@ -11074,7 +11417,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(J17-Pin_1)")
-			(pinfunction "X2")
+			(pinfunction "X2_2")
 			(pintype "input")
 			(uuid "321399a3-a35a-4b4f-97f2-338968b96830")
 		)
@@ -11084,7 +11427,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
-			(pinfunction "GND")
+			(pinfunction "GND_3")
 			(pintype "power_in")
 			(uuid "6ecd71bf-9d0a-4069-9019-18fce2cf6325")
 		)
@@ -11094,7 +11437,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(J18-Pin_1)")
-			(pinfunction "Q")
+			(pinfunction "Q_4")
 			(pintype "output")
 			(uuid "de9f1722-91e5-461e-a3e5-61f36b0acebf")
 		)
@@ -11104,7 +11447,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+5V")
-			(pinfunction "VCC")
+			(pinfunction "VCC_5")
 			(pintype "power_in")
 			(uuid "54b8b1f6-7bff-4ea6-93e2-db2f2c30471a")
 		)
@@ -11149,7 +11492,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11161,7 +11504,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11215,6 +11558,12 @@
 		(path "/6531fb03-59be-4de6-9002-b6335ece4266")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11356,7 +11705,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-5V")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "413538df-0be0-4590-bb5b-13918789d2c6")
 		)
@@ -11401,7 +11750,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11413,7 +11762,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11455,6 +11804,12 @@
 		(path "/b123eb72-1279-4c27-be28-82d4d5f05c95")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11690,7 +12045,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11702,7 +12057,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11730,6 +12085,12 @@
 		(path "/5c927186-e73b-4c4a-9110-e8297ee80c94")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11844,7 +12205,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11856,7 +12217,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11884,6 +12245,12 @@
 		(path "/da0abc7a-065e-4d18-9c36-c848ab641977")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11998,7 +12365,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12038,6 +12405,12 @@
 		(path "/ecce97ef-2ef8-4c40-aaf5-a2ac7d50d47d")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12152,7 +12525,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12164,7 +12537,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12192,6 +12565,12 @@
 		(path "/aa002506-4f90-4d37-9fdc-62b2f48867f9")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12306,7 +12685,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12346,6 +12725,12 @@
 		(path "/56a84a1d-84cc-45d4-8386-b82f309093cf")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12497,9 +12882,39 @@
 			)
 		)
 		(property ki_fp_filters "DIP?14*")
-		(path "/6cc4cb11-a9e3-4d52-9ac9-7e4141c66c9d")
+		(path "/de0af3a4-37aa-4e59-90ab-08cab22a0c89")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+			(unit
+				(name "B")
+				(pins "3" "4")
+			)
+			(unit
+				(name "C")
+				(pins "5" "6")
+			)
+			(unit
+				(name "D")
+				(pins "9" "8")
+			)
+			(unit
+				(name "E")
+				(pins "11" "10")
+			)
+			(unit
+				(name "F")
+				(pins "13" "12")
+			)
+			(unit
+				(name "G")
+				(pins "14" "7")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12709,7 +13124,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "VSS")
+			(pinfunction "VSS_7")
 			(pintype "power_in")
 			(uuid "2dce6c90-b487-4d54-b3fb-6c5fa4023de6")
 		)
@@ -12780,7 +13195,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
-			(pinfunction "VDD")
+			(pinfunction "VDD_14")
 			(pintype "power_in")
 			(uuid "cd580fe3-3285-4bea-8794-9e5d142f6562")
 		)
@@ -12825,7 +13240,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12865,6 +13280,12 @@
 		(path "/f24473c4-3366-4469-b553-fe73de2f3c5a")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12979,7 +13400,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12991,7 +13412,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13045,6 +13466,12 @@
 		(path "/9c38df30-58b8-4371-9043-3e9a5c668328")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13186,7 +13613,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(J12-Pin_1)")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "7a0fd3f5-9645-4509-afe6-4dbb75208a86")
 		)
@@ -13231,7 +13658,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13271,6 +13698,12 @@
 		(path "/58252628-95f2-44b7-bea7-4c712c4ebec8")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13385,7 +13818,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13397,7 +13830,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13451,6 +13884,12 @@
 		(path "/627305b1-daf1-4913-b337-07e161944f42")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13592,7 +14031,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(J13-Pin_1)")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "e1a27a6d-8bcb-4433-b001-e55fc67b5efa")
 		)
@@ -13637,7 +14076,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13649,7 +14088,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13677,6 +14116,12 @@
 		(path "/734e1453-1e4d-4864-92fb-2fd912949e68")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13791,7 +14236,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13803,7 +14248,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13845,6 +14290,12 @@
 		(path "/c2fe5149-62b1-435f-893b-845034ff0859")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14080,7 +14531,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14092,7 +14543,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14120,6 +14571,12 @@
 		(path "/1f1112ff-2b96-4bc6-8bd1-989b0e01eec5")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14234,7 +14691,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14274,6 +14731,12 @@
 		(path "/37dbdff5-3805-4c38-be09-2343b4115a8a")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14388,7 +14851,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14400,7 +14863,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14424,10 +14887,29 @@
 				)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b268e3c1-cb02-44e3-af2e-e54bb21fe166")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/2364aca9-62ef-4fe5-9f8f-cbf857db9b80")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14538,7 +15020,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
 			(net "GND")
-			(pinfunction "K")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "6e08810c-5a43-4a3f-9576-6389a509d480")
 		)
@@ -14548,7 +15030,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
 			(net "Net-(D3-A)")
-			(pinfunction "A")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "8b39a4bb-4475-4f83-82db-605ba2842d68")
 		)
@@ -14593,7 +15075,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14605,7 +15087,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14633,6 +15115,12 @@
 		(path "/ad7aa4dd-7a03-4a09-8b3c-9be609fde5c1")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14747,7 +15235,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14759,7 +15247,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14813,6 +15301,12 @@
 		(path "/e54ff3bc-d2a8-4eee-a1e7-08bd0e46b1e5")
 		(sheetname "/")
 		(sheetfile "Oszillatoren.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14954,7 +15448,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "7e8d578d-c5bc-4d6b-8c4a-f028ceb5bcb3")
 		)
