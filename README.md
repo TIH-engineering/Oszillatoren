@@ -4,9 +4,35 @@
 
 # LA – Oszillatoren
 
-Laborprojekt der **HTL Rankweil**
+## 🔌 Leiterplattenbeschreibung
 
-Dieses Projekt enthält verschiedene Oszillatorschaltungen für den Laborunterricht.
+Die Leiterplatte **LA – Oszillatoren** wurde für Laborübungen im Bereich
+Elektronik und Hardwareentwicklung entwickelt. Sie ermöglicht die praktische
+Untersuchung unterschiedlicher Oszillatorschaltungen und den Vergleich ihrer
+Funktionsprinzipien und Eigenschaften.
+
+Auf einer gemeinsamen Leiterplatte sind mehrere typische Oszillatorschaltungen
+realisiert:
+
+- **RC-Phasenschieber-Oszillator**
+- **Wien-Brücken-Oszillator**
+- **OPV-Relaxationsoszillator**
+- **RC-/Quarzoszillatoren**
+
+Die Schaltungen sind räumlich voneinander getrennt aufgebaut und verfügen über
+gut zugängliche Messpunkte. Dadurch können charakteristische Signale direkt mit
+dem Oszilloskop untersucht und mit den theoretisch berechneten Größen verglichen
+werden.
+
+Bei ausgewählten Schaltungen sind Bauteile steck- bzw. austauschbar ausgeführt.
+Damit können beispielsweise unterschiedliche Widerstandswerte eingesetzt und
+deren Einfluss auf Frequenz und Schwingverhalten experimentell untersucht werden.
+
+Die Leiterplatte wird mit **+5 V / GND / −5 V** versorgt. Die einzelnen
+Messpunkte und Anschlüsse sind direkt auf der Leiterplatte beschriftet.
+
+> **Einsatzgebiet:** Laborunterricht zur Untersuchung von Oszillatoren,
+> Schwingbedingungen, Frequenzbestimmung und dem Einfluss einzelner Bauteile.
 
 ---
 
