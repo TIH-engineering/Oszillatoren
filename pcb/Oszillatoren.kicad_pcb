@@ -1871,7 +1871,7 @@
 				)
 			)
 		)
-		(property "Value" "changeable"
+		(property "Value" "10k"
 			(at 4.03 4.91 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1895,7 +1895,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "changeable"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2146,7 +2146,7 @@
 				)
 			)
 		)
-		(property "Value" "changeable"
+		(property "Value" "10k"
 			(at 4.03 4.91 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2170,7 +2170,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "changeable"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3437,7 +3437,7 @@
 				)
 			)
 		)
-		(property "Value" "changeable"
+		(property "Value" "10k"
 			(at 4.03 4.91 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3461,7 +3461,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "changeable"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
